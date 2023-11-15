@@ -198,7 +198,6 @@ void crossover(Individual *father, Individual *mother, Individual *child) {
 }
 
 void evaluateFitness(Individual *individual) {
-    // Đánh giá độ thích nghi của cá thể: độ thích nghi = số xung đột trong hàng và cột, mỗi lần lặp lại của 1 số được tính là 1 xung đột. Cá thể có độ thích nghi = 0 là kết quả
     // Đánh giá độ thích nghi của cá thể: độ thích nghi = số xung đột trong hàng và cột, 
     // mỗi lần lặp lại của 1 số được tính là 1 xung đột. Cá thể có độ thích nghi = 0 là
     // kết quả cần tìm
